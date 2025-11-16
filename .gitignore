@@ -1,27 +1,26 @@
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+*.pyd
 .Python
-env/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
 venv/
+env/
 ENV/
 .venv
-*.egg-info/
-dist/
-build/
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*.local
 
-# Data
-data/
-*.db
-*.sqlite
-chroma_db/
+# Data files
+data/*.db
+data/*.sqlite
 
 # IDEs
 .vscode/
@@ -37,18 +36,15 @@ Thumbs.db
 *.log
 logs/
 
-# AWS
-.aws/
-credentials
-
-# Docker
-*.dockerfile.swp
-
 # Testing
 .pytest_cache/
 .coverage
 htmlcov/
 
-# ChromaDB
+# Keep vector_db structure but ignore contents
 data/vector_db/*
 !data/vector_db/.gitkeep
+
+# AWS
+.aws/
+credentials
