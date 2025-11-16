@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data
+data/
+*.db
+*.sqlite
+chroma_db/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# AWS
+.aws/
+credentials
+
+# Docker
+*.dockerfile.swp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ChromaDB
+data/vector_db/*
+!data/vector_db/.gitkeep
