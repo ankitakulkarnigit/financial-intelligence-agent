@@ -18,6 +18,7 @@ Multi-agent system with:
 - Prediction Agent: ML-based forecasting
 - Report Agent: Insight synthesis
 
+```
 ┌─────────────────────────────────────────────────────────┐
 │                     User Interface                      │
 │                  (Streamlit Frontend)                   │
@@ -46,7 +47,7 @@ Multi-agent system with:
 │  • Yahoo Finance  • Alpha Vantage  • NewsAPI            │
 │  • Google Gemini (LLM)  • ChromaDB (Vector Store)       │
 └─────────────────────────────────────────────────────────┘
-
+```
 
 ## 🚀 Features
 
